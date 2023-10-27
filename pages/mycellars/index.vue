@@ -94,6 +94,9 @@
   <Sidebar />
   <div class="p-10 md:ml-72">
     <h1>{{ user.email }}</h1>
+
+    <BottleScanner />
+
     <button @click="logout">signout</button>
 
     <UButton v-show="mycellars.length <= 0" class="w-fit" label="Create New Cellar" @click="addCellar = true">

@@ -20,6 +20,10 @@
   "dependencies": {
     "@nuxt/ui": "^2.8.1",
     "@pinia/nuxt": "^0.4.11",
-    "@supabase/supabase-js": "^2.36.0"
+    "@supabase/supabase-js": "^2.36.0",
+    "@vueuse/core": "^10.5.0",
+    "easy-js-camera": "^2.1.0",
+    "easy-vue-camera": "^1.0.5",
+    "tesseract.js": "^5.0.2"
   }
 }
